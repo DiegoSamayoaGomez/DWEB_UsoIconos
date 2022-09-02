@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Ingreso de datos</title>
+
 </head>
 <body>
     <p>
@@ -13,7 +14,7 @@
     </p>
     <form action="EstudianteController.php" method="post">
         <p>
-            <label for="apellidos">Apellidos</label> apellidos
+            <label for="apellidos">Apellidos</label>
             <input type="text" name="apellidos">
         </p>
         
@@ -32,6 +33,7 @@
             <input type="number" name="telefono">
         </p>
         
+        <hr>
         <p>
             <input type="submit" value="Guardar Registro">
         </p>
@@ -45,8 +47,6 @@
     <h3>LISTADO DE ESTUDIANTES</h3>
     <hr>
 
-    
-<hr>
 
 <table border="1">
         <tr>
