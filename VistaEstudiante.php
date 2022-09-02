@@ -79,6 +79,8 @@
     </table>
 
     <hr>
+    <h2>TABLAS EN MYSQL</h2>
+    <p>Aparece en blanco debido a que la base de datos está alojada localmente</p>
 
 
     <table border="1">

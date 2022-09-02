@@ -8,17 +8,7 @@
 </head>
 <body>
     <a href="VistaEstudiante.php">Ir a Vista Estudiante</a>
-
-
-
     <p>Diego Alejandro Samayoa Gomez....Prueba de Sincronización</p>
-
-    
-
-
-
-
-
 
 </body>
 </html>
