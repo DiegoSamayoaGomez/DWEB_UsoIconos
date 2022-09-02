@@ -11,7 +11,10 @@
 <body>
     <p>
         <h2>INGRESO DE DATOS DEL ESTUDIANTE</h2>
+        
     </p>
+
+    <P>Diego Alejandro Samayoa Gomez</P>
     <form action="EstudianteController.php" method="post">
         <p>
             <label for="apellidos">Apellidos</label>
@@ -45,6 +48,7 @@
     </form>
     <hr>
     <h3>LISTADO DE ESTUDIANTES</h3>
+
     <hr>
 
 
