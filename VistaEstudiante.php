@@ -114,7 +114,7 @@
                 <td>  <?php echo $Estudiantes['direccion'] ?> </td>
                 <td>  <?php echo $Estudiantes['telefono'] ?> </td>
                 <td style="text-align: center;">
-                <a href="editar.html"><img alt="editar" src="icons8_trash_32.png">
+                <a href="eliminar.html"><img alt="Eliminar" src="icons8_trash_32.png">  
                  </td>
 
                 <td style="text-align: center;">
