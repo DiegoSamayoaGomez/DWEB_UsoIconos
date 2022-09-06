@@ -53,7 +53,8 @@
       </a>
     </form>
     <hr>
-    <h3>LISTADO DE ESTUDIANTES</h3>
+    <h3>LISTADO DE ESTUDIANTES (Local)</h3>
+    <p>Conexión LOCAL a servidor de base de datos</p>
 
     <hr>
 
@@ -87,28 +88,11 @@
             
         </tr>
 
-        <tr>
-            <td>1</td>
-            <td>Samayoa</td>
-            <td>Diego</td>
-            <td>Ciudad</td>
-            <td>12345678</td>
-
-            <td style="text-align: center;">
-                <!-- <a href="eliminar.html"><img alt="Eliminar" src="C:\xampp\htdocs\MODULO II\01-09 TABLA\src"> -->                    
-                <a href="eliminar.html"><img alt="Eliminar" src="icons8_trash_32.png">         
-            </td>
-
-            <td style="text-align: center;">
-                <a href="editar.html"><img alt="editar" src="icons8_edit_32.png">
-            </td>
-            
-        </tr>
     </table>
 
     <hr>
-    <h2>TABLAS EN MYSQL</h2>
-    <p>Aparece en blanco debido a que la base de datos está alojada localmente</p>
+    <h2>TABLAS EN MYSQL (Online)</h2>
+    <p>Conexión ONLINE a servidor de bases de datos</p>
 
 
     <table class="table table-striped w-50 p-3">
