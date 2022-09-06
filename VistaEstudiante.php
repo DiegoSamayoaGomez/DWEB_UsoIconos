@@ -5,7 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Ingreso de datos</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    
+   
+        <title>Ingreso de datos</title>
 
 </head>
 <body>
@@ -52,7 +58,7 @@
     <hr>
 
 
-<table border="1">
+<table class="table table-striped w-50 p-3">
         <tr>
             <th>ID</th>
             <th>Apellidos</th>
@@ -80,6 +86,24 @@
             </td>
             
         </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Samayoa</td>
+            <td>Diego</td>
+            <td>Ciudad</td>
+            <td>12345678</td>
+
+            <td style="text-align: center;">
+                <!-- <a href="eliminar.html"><img alt="Eliminar" src="C:\xampp\htdocs\MODULO II\01-09 TABLA\src"> -->                    
+                <a href="eliminar.html"><img alt="Eliminar" src="icons8_trash_32.png">         
+            </td>
+
+            <td style="text-align: center;">
+                <a href="editar.html"><img alt="editar" src="icons8_edit_32.png">
+            </td>
+            
+        </tr>
     </table>
 
     <hr>
@@ -87,7 +111,7 @@
     <p>Aparece en blanco debido a que la base de datos está alojada localmente</p>
 
 
-    <table border="1">
+    <table class="table table-striped w-50 p-3">
         <th>NOMBRE</th>
         <th>APELLIDOS</th>
         <th>DIRECCION</th>

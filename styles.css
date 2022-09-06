@@ -35,6 +35,9 @@ input[type="submit"] {
   table{
     text-align: center;
     margin: 0 auto;
+    width: 800px;
+   
+
   }
 
   hr{
