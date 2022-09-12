@@ -118,7 +118,7 @@
                  </td>
 
                 <td style="text-align: center;">
-                <a href="editar.html"><img alt="editar" src="icons8_edit_32.png">
+                <<a href="VistaEditarEstudiante.php?idEst=<?php echo $Estudiantes['idEstudiante'];?>">EDITAR</a>
                 </td>
           </tr>
           
