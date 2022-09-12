@@ -33,7 +33,7 @@
         </p>
         
         <p>
-            <label for="direccion">direccion</label>
+            <label for="direccion">Dirección</label>
             <input type="text" name="direccion" required>
         </p>
         
