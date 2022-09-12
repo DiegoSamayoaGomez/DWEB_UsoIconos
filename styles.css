@@ -29,16 +29,18 @@ input[type="submit"] {
     margin: 1em auto;
     height: 2em;
     background-color: #3b3b4f;
-    color: rgb(231, 229, 229);
+    color: white;
   }
 
-  table{   
+  table{
+    text-align: center;
     /*margin: 0 auto;*/
-    margin: 0 auto 20px auto;
-    width: 50%;
-  }
+    margin: 0 auto 10px auto;
+    width: 800px;  
 
+  }
 
   hr{
     max-width: 800px;
   }
+  
