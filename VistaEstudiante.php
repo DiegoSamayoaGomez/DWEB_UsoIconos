@@ -24,22 +24,22 @@
     <form action="EstudianteController.php" method="post">
         <p>
             <label for="apellidos">Apellidos</label>
-            <input type="text" name="apellidos">
+            <input type="text" name="apellidos" required>
         </p>
         
         <p>
             <label for="nombre">Nombre</label>
-        <input type="text" name="nombre">
+        <input type="text" name="nombre" required>
         </p>
         
         <p>
             <label for="direccion">direccion</label>
-            <input type="text" name="direccion">
+            <input type="text" name="direccion" required>
         </p>
         
         <p>
             <label for="telefono">Telefono</label>
-            <input type="number" name="telefono">
+            <input type="number" name="telefono" required>
         </p>
         
         <hr>
@@ -58,7 +58,7 @@
     <hr>
 
 
-<table class="table table-striped w-50 p-3">
+<table class="table table-striped w-50">
         <tr>
             <th>ID</th>
             <th>Apellidos</th>
@@ -94,7 +94,7 @@
     <p>Conexión ONLINE a servidor de bases de datos</p>
 
 
-    <table class="table table-striped w-50 p-3">
+    <table class="table table-striped w-50 pb-3">
     
         <th>NOMBRE</th>
         <th>APELLIDOS</th>
