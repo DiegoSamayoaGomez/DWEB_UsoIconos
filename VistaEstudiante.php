@@ -44,9 +44,8 @@
         
         <hr>
         <p>
-            <input type="submit" value="Guardar Registro">
+            <input type="submit" value="Guardar Registro" name="btnGuardar">
         </p>
-
 
 
       
@@ -96,6 +95,7 @@
 
 
     <table class="table table-striped w-50 p-3">
+    
         <th>NOMBRE</th>
         <th>APELLIDOS</th>
         <th>DIRECCION</th>
@@ -109,17 +109,19 @@
         while($Estudiantes = mysqli_fetch_assoc($ListaEstudiantes))
         {?>
           <tr>
+                
                 <td>  <?php echo $Estudiantes['nombre'] ?> </td>
                 <td>  <?php echo $Estudiantes['apellidos'] ?> </td>
                 <td>  <?php echo $Estudiantes['direccion'] ?> </td>
                 <td>  <?php echo $Estudiantes['telefono'] ?> </td>
+                
+                
+                <td><a href="VistaEditarEstudiante.php?idEst=<?php echo $Estudiantes['idestudiante'];?>"><img alt="Eliminar" src="icons8_edit_32.png"></a></td>
+                
                 <td style="text-align: center;">
                 <a href="eliminar.html"><img alt="Eliminar" src="icons8_trash_32.png">  
-                 </td>
-
-                <td style="text-align: center;">
-                <<a href="VistaEditarEstudiante.php?idEst=<?php echo $Estudiantes['idEstudiante'];?>">EDITAR</a>
                 </td>
+
           </tr>
           
        <?php } ?>

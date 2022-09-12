@@ -33,10 +33,10 @@ input[type="submit"] {
   }
 
   table{
-    text-align: center;
-    margin: 0 auto;
+   
+    /*margin: 0 auto;*/
+    margin: 0 auto 20px auto;
     width: 800px;  
-
   }
 
   hr{

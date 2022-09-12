@@ -59,5 +59,4 @@ class Estudiante
       $nuevoComando->query("Update estudiantes set apellidos="."'".$apel."',nombre="."'".$nom."',direccion="."'".$dir."',telefono="."'".$tel."'"." where idEstudiante = $id");
     }
 
-
 }

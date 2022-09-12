@@ -24,7 +24,7 @@ else
 /*EDITAR*/
 if(isset($_POST['btnEditar']))
 {
- $nuevoEstudiante->EditarEstudiante($_POST['idStudent'],$_POST['txtapellidos'],$_POST['txtnombre'],$_POST['direccion'],$_POST['telefono']); 
+ $nuevoEstudiante->EditarEstudiante($_POST['idStudent'],$_POST['txtapellidos'],$_POST['txtnombre'],$_POST['txtdireccion'],$_POST['txttelefono']); 
  header('Location: vistaEstudiante.php');
         
 }
