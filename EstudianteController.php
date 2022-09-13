@@ -29,4 +29,19 @@ if(isset($_POST['btnEditar']))
         
 }
 
+/*EDITAR*/
+if(isset($_POST['btnEliminar']))
+{
+ $nuevoEstudiante->EliminarEstudiante($_POST['idStudent'],$_POST['txtapellidos'],$_POST['txtnombre'],$_POST['txtdireccion'],$_POST['txttelefono']); 
+ header('Location: vistaEstudiante.php');
+        
+}
+
+/*EDITAR*/
+if(isset($_POST['btnCancelar']))
+{ 
+ header('Location: vistaEstudiante.php');        
+}
+
+
 

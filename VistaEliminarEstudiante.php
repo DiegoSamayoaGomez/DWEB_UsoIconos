@@ -25,36 +25,38 @@
                                 <p>
                                 <label for="txtapellidos">Apellidos:</label>
                                 <input type="text" name="txtapellidos" 
-                                value="<?php echo $resultadoFiltrado['apellidos']?>" required>
+                                value="<?php echo $resultadoFiltrado['apellidos']?>" required disabled="disabled">
                                 </p>
 
                                 <p>
                                 <label for="txtnombre">Nombre:</label>
                                 <input type="text" name="txtnombre" 
-                                value="<?php echo $resultadoFiltrado['nombre']?>" required>
+                                value="<?php echo $resultadoFiltrado['nombre']?>" required disabled="disabled">
                                 </p>
 
                                 <p>
                                 <label for="txtdireccion">Direccion:</label>
                                 <input type="text" name="txtdireccion" 
-                                value="<?php echo $resultadoFiltrado['direccion']?>" required>
+                                value="<?php echo $resultadoFiltrado['direccion']?>" required disabled="disabled">
                                 </p>
 
                                 <p>
                                 <label for="txttelefono">Telefono:</label>
                                 <input type="text" name="txttelefono" 
-                                value="<?php echo $resultadoFiltrado['telefono']?>" required>
+                                value="<?php echo $resultadoFiltrado['telefono']?>" required disabled="disabled">
                                 </p>
 
                                  <p>
                                     <input type="hidden" name="idStudent" 
-                                    value="<?php echo $resultadoFiltrado['idestudiante']?>" required>
+                                    value="<?php echo $resultadoFiltrado['idestudiante']?>" required disabled="disabled">
                                  </p>   
                             <?php
                             }
                             ?>
-                        
-                <input type="submit" value="Editar Estudiante" name="btnEditar">            
+                <p>¿Seguro desea eliminar a este estudiante?</p>        
+                <input type="submit" value="Eliminar Estudiante" name="btnEliminar"> 
+                <input type="submit" value="Cancelar" name="btnCancelar"> 
+                           
     </form>
 </body>
 </html>
