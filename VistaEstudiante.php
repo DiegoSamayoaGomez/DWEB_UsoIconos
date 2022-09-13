@@ -116,8 +116,7 @@
                 <td>  <?php echo $Estudiantes['telefono'] ?> </td>
                 
                 
-                <td><a href="VistaEditarEstudiante.php?idEst=<?php echo $Estudiantes['idestudiante'];?>"><img alt="Eliminar" src="icons8_edit_32.png"></a></td>
-                
+                <td><a href="VistaEditarEstudiante.php?idEst=<?php echo $Estudiantes['idestudiante'];?>"><img alt="Editar" src="icons8_edit_32.png"></a></td>               
                 
                 <td><a href="VistaEliminarEstudiante.php?idEst=<?php echo $Estudiantes['idestudiante'];?>"><img alt="Eliminar" src="icons8_trash_32.png"></a></td>
                 

@@ -25,30 +25,30 @@
                                 <p>
                                 <label for="txtapellidos">Apellidos:</label>
                                 <input type="text" name="txtapellidos" 
-                                value="<?php echo $resultadoFiltrado['apellidos']?>" required disabled="disabled">
+                                value="<?php echo $resultadoFiltrado['apellidos']?>" required>
                                 </p>
 
                                 <p>
                                 <label for="txtnombre">Nombre:</label>
                                 <input type="text" name="txtnombre" 
-                                value="<?php echo $resultadoFiltrado['nombre']?>" required disabled="disabled">
+                                value="<?php echo $resultadoFiltrado['nombre']?>" required>
                                 </p>
 
                                 <p>
                                 <label for="txtdireccion">Direccion:</label>
                                 <input type="text" name="txtdireccion" 
-                                value="<?php echo $resultadoFiltrado['direccion']?>" required disabled="disabled">
+                                value="<?php echo $resultadoFiltrado['direccion']?>" required>
                                 </p>
 
                                 <p>
                                 <label for="txttelefono">Telefono:</label>
                                 <input type="text" name="txttelefono" 
-                                value="<?php echo $resultadoFiltrado['telefono']?>" required disabled="disabled">
+                                value="<?php echo $resultadoFiltrado['telefono']?>" required>
                                 </p>
 
                                  <p>
                                     <input type="hidden" name="idStudent" 
-                                    value="<?php echo $resultadoFiltrado['idestudiante']?>" required disabled="disabled">
+                                    value="<?php echo $resultadoFiltrado['idestudiante']?>" required>
                                  </p>   
                             <?php
                             }
